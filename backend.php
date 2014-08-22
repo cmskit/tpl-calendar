@@ -9,15 +9,15 @@
     <link href='templates/calendar/fullcalendar/fullcalendar.css' rel='stylesheet'/>
     <link href='templates/calendar/fullcalendar/fullcalendar.print.css' rel='stylesheet' media='print'/>
     <link rel="stylesheet" type="text/css" id="mainTheme"
-          href="../vendor/cmskit/lib-jquery-ui/themes/<?php echo end($_SESSION[$projectName]['config']['theme']) ?>/jquery-ui.css"/>
-    <script src="../vendor/cmskit/lib-jquery-ui/jquery.min.js"></script>
-    <script src="../vendor/cmskit/lib-jquery-ui/jquery-ui.js"></script>
+          href="../vendor/cmskit/jquery-ui/themes/<?php echo end($_SESSION[$projectName]['config']['theme']) ?>/jquery-ui.css"/>
+    <script src="../vendor/cmskit/jquery-ui/jquery.min.js"></script>
+    <script src="../vendor/cmskit/jquery-ui/jquery-ui.js"></script>
     <script src='templates/calendar/fullcalendar/fullcalendar.js'></script>
 
     <?php
 
     if (!isset($_SESSION[$projectName]['client']['json'])) {
-        echo '<script src="../vendor/cmskit/lib-jquery-ui/plugins/json3.min.js"></script>';
+        echo '<script src="../vendor/cmskit/jquery-ui/plugins/json3.min.js"></script>';
     }
 
     echo '
