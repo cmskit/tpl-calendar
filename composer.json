@@ -1,5 +1,5 @@
 {
-    "name": "cms-kit template calendar",
+    "name": "cmskit/ template calendar",
     "type": "library",
     "version": "0.6.0",
     "description": "Backend template showing entries as a calendar",
