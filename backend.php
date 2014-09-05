@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" id="mainTheme"
           href="../vendor/cmskit/jquery-ui/themes/<?php echo end($_SESSION[$projectName]['config']['theme']) ?>/jquery-ui.css"/>
     <script src="../vendor/cmskit/jquery-ui/jquery.min.js"></script>
-    <script src="../vendor/cmskit/jquery-ui/jquery-ui.js"></script>
+    <script src="../vendor/cmskit/jquery-ui/jquery-ui.min.js"></script>
     <script src='templates/calendar/fullcalendar/fullcalendar.js'></script>
 
     <?php
